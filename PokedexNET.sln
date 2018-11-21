@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexNET", "PokedexNET\PokedexNET.csproj", "{32051164-C8CC-4F3A-BB10-6CBE77192EDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokedexNET.Test", "PokedexNET.Test\PokedexNET.Test.csproj", "{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexNET.Test", "PokedexNET.Test\PokedexNET.Test.csproj", "{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexNET", "PokedexNET\PokedexNET.csproj", "{87D0CE6C-188C-4F4D-9EA5-0AA4D1438E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32051164-C8CC-4F3A-BB10-6CBE77192EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32051164-C8CC-4F3A-BB10-6CBE77192EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32051164-C8CC-4F3A-BB10-6CBE77192EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32051164-C8CC-4F3A-BB10-6CBE77192EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E4ADB0-73F9-496A-B4CD-CC82B7F11F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D0CE6C-188C-4F4D-9EA5-0AA4D1438E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D0CE6C-188C-4F4D-9EA5-0AA4D1438E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D0CE6C-188C-4F4D-9EA5-0AA4D1438E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D0CE6C-188C-4F4D-9EA5-0AA4D1438E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F85D3CD-D278-440A-B5EF-61A45617B519}
 	EndGlobalSection
 	GlobalSection(CodealikeProperties) = postSolution
 		SolutionGuid = 5d4cd6ac-d8dc-4785-ad7c-adbf7a730a60
