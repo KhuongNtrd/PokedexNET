@@ -17,6 +17,12 @@ namespace PokedexNET
         public string Name { get; set; }
         [JsonProperty("id")]
         public int Id { get; set; }
+
+        [JsonIgnore]
+        public string ImageFull => $"https://assets.pokemon.com/assets/cms2/img/pokedex/full/{Id:D3}.png";
+
+        [JsonIgnore]
+        public string Image => $"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/{Id:D3}.png";
     }
 
 }
